@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carte</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-gauche">
+                <a href="index.html"><i id="icon" class="fas fa-map-marked-alt"></i></a>
+                <a class="lien1" href="index.html">Carte</a>
+            </div>
+            <span></span>
+            <div class="navbar-droite">
+                <a href="html/favoris.html" target="_blank"><i id="icon" class="fas fa-heart"></i></a>
+                <a class="lien1" href="html/favoris.html" target="_blank">Favoris</a>
+            </div>
+        </nav>
+    </header>
+    <div class="carte" id="map"></div>
+    <div class="bandeau-info" id="fermer">
+        <!-- <div class="image-resto">
+            <img src="img/default.jpg" alt="">
+        </div>
+        <div class="description">
+            <h2>Titre</h2>
+            <p>Adresse</p>
+            <p>Description</p>
+        </div>
+        <div class="btns">
+            <button class="btn">Enregistrer</button>
+            <i id="croix" class="fas fa-times"></i>
+        </div> -->
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/favoris.js"></script>
+</body>
+</html>
